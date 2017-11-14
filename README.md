@@ -13,3 +13,6 @@ Els paràmetres de usb_cam són:
 - **pixel_format**: Format dels píxels. Els valors possibles d'aquest paràmetre són: mjpeg, yuyv, uyvy. Per defecte el "yuyv".
 - **camera_frame_id**: És un *string* que identifica la càmera "usb_cam".
 - **io_method**: Mètode de sortida, possibles valors: mmap, read, userptr. El valor per defecte és:"mmap".
+
+### Dependències:
+Es necessari cloanar en l’entorn de ROS personal el packet usb_cam
