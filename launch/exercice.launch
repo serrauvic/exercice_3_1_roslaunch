@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+  <group ns = "masteruvic">
+		<rosparam command="load" file="$(find exercice_3_1)/params/parametres.yaml" />
+	</group>
+	<node name="rviz" pkg="rviz" type="rviz"/>
+	<include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
+</launch>
